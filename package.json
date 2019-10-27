@@ -1,5 +1,5 @@
 {
-  "name": "glevb",
+  "name": "@b3gm/glevb",
   "version": "0.0.1",
   "description": "Game Loop EVent Bus",
   "main": "dist/index.js",
