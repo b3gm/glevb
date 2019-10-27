@@ -1,0 +1,5 @@
+/nbproject
+*.test.js
+/dist
+/node_modules
+*.tgz

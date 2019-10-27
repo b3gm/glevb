@@ -1,0 +1,34 @@
+{
+  "name": "glevb",
+  "version": "0.0.1",
+  "description": "Game Loop EVent Bus",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc && npx browserify -o dist/index.bundle.js dist/index.js",
+    "test": "npx tsc && npx browserify -o dist/glevb.test.bundle.js dist/glevb.test.js && echo 'Navigate to http://localhost:3000/test to execute tests.' && npx http-server . -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b3gm/glevb.git"
+  },
+  "keywords": [
+    "game_loop",
+    "event_aggregation"
+  ],
+  "author": "b3gm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b3gm/glevb/issues"
+  },
+  "homepage": "https://github.com/b3gm/glevb#readme",
+  "devDependencies": {
+    "@b3gm/algebr4": "0.0.1",
+    "@types/jest": "^24.0.20",
+    "browserify": "^16.5.0",
+    "http-server": "^0.11.1",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {}
+}
