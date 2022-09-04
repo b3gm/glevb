@@ -3,10 +3,9 @@ import Keys from './Keys';
 import KeyState from './KeyState';
 import GlevbEvent from './GlevbEvent';
 
-export type GlevbEvent = GlevbEvent;
-
 export {
-    Glevb,
-    Keys,
-    KeyState
+  GlevbEvent,
+  Glevb,
+  Keys,
+  KeyState
 }
