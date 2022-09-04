@@ -1,6 +1,12 @@
 nbproject
 node_modules
+src
+coverage
+dist/test
 *.tgz
 test
 *.test.js
 *.test.ts
+webpack*.js
+tsconfig*.json
+.*
